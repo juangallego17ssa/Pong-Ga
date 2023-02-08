@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Ping Pong</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <header>
+        <h1>This is the real Ping Pong</h1>
+    </header>
+    <main>
+        <div>
+            <button>Ready to Play!</button>
+            <input type="range" min=5 max=10 step=5>
+        </div>
+    <div>
+        <h1 class="score">Player Zürich</h1>
+        <h1 class="score">Player Munich</h1>
+        <h1 class="score" id="p1">0</h1>
+        <h1 class="score" id="p2">0</h1>
+    </div>
+        <canvas height="500" width="700"></canvas>
+    </main>
+    <script src="./game.js"></script>
+    <script src="./ball.js"></script>
+    <script src="./paddle.js"></script>
+    <script src="./pong.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+main {
+    background-color: brown;
+    height: 1000px;
+    text-align: center;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    
+}
+body{
+    text-align: center;
+}
+h1 {
+    color: rgb(78,125,237);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+
+canvas{
+    position: relative;
+    top: 20px;
+}
+
+button{
+    position: relative;
+    margin: 30px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: yellow;
+}
+
+.score{
+    display: inline-block;
+    width: 40%;
+    font-size: 40px;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+input{
+    color: yellow;
+    background-color: yellow;
+}
